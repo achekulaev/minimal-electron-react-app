@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Minimal Electron-React App</title>
+    <!-- Include main stylesheet -->
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!-- React App will render into this element -->
+    <div id="root"></div>
+
+    <script>
+      // babel-register will transcode JSX in all JS files that are included with node's require()
+      // since transform-react-jsx babel plugin is installed with preset-react
+      require('babel-register');
+
+      // Require main application file. Babel will transcript JSX in it and in all .js files it will require
+      require('./src/app.js');
+    </script>
+  </body>
+</html>

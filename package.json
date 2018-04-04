@@ -1,0 +1,27 @@
+{
+  "name": "minimal-electron-react-app",
+  "version": "1.0.0",
+  "description": "Minimal Electron-React App",
+  "license": "MIT",
+  "repository": "achekulaev/minimal-electron-react-app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "Electron",
+    "React",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "Your Name",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "react": "^16.3.0",
+    "react-dom": "^16.3.0"
+  }
+}
